@@ -3,7 +3,7 @@ public class LemonadeStand {
     private int lemons, gallonsOfWater, cupsOfSugar, emptyGlasses, glassesOfLemonade;
     private double price, income;
     
-    public LemonadeStand(){/*TODO*/}
+    public LemonadeStand(){ price = income = gallonsOfWater = cupsOfSugar = emptyGlasses = glassesOfLemonade = lemons = 0;}
     public LemonadeStand(int initLemons, int initGallonsOfWater){/*TODO*/}
 
     public int getLemons(){return lemons;}
